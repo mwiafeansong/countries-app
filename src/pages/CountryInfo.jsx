@@ -10,7 +10,7 @@ const CountryInfo = ({ countries }) => {
 
   useEffect(() => {
     const fetchCountry = async () => {
-      const res = await fetch('/data.json');
+      const res = await fetch('../../countries-app/data.json');
       const data = await res.json();
 
       const dataItem = data.filter((item) => item.alpha3Code === id);
