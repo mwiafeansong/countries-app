@@ -31,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot-dark-mode.png)
+![Light Mode](./screenshot.png)
+![Dark Mode](./screenshot-dark-mode.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site](https://mwiafeansong.github.io/countries-app/)
 
 ## My process
 
