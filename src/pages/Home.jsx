@@ -16,7 +16,7 @@ const Home = ({ countries }) => {
   };
 
   return (
-    <div className="container m-auto py-6 px-3 sm:px-6">
+    <div className="container mx-auto mb-8 py-6 px-3 sm:px-6">
       <div className="flex flex-col gap-4 sm:flex-row justify-between">
         <form className="relative">
           <FaSearch className="absolute top-3 left-3 text-slate-500" />

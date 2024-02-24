@@ -7,10 +7,11 @@
 @layer base {
   body {
     font-family: 'Nunito Sans', sans-serif;
+    min-height: 100vh;
   }
-}
 
-@layer utilities {
-  .lightMode {
+  footer {
+    margin-top: auto;
+    margin-bottom: 0;
   }
 }

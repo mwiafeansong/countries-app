@@ -22,7 +22,7 @@ const CountryInfo = ({ countries }) => {
   }, [id]);
 
   return (
-    <div className="text-lightModeText dark:text-darkModeTextLightModeElements container m-auto py-6 px-3 sm:px-6">
+    <div className="mb-8 text-lightModeText dark:text-darkModeTextLightModeElements container mx-auto py-6 px-3 sm:px-6">
       <button
         onClick={() => navigate(-1)}
         className="flex gap-2 items-center py-2 px-6 shadow-lg shadow-lightModeShadow dark:bg-darkModeElements dark:shadow-darkModeShadow dark:text-darkModeTextLightModeElements rounded-md mt-6 mb-12 w-fit"

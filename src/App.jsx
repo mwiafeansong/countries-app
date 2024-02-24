@@ -37,7 +37,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className={`App ${theme}`}>
-        <div className="bg-lightModeBg min-h-[100vh] dark:bg-darkModeBg">
+        <div className="bg-lightModeBg min-h-[100vh] dark:bg-darkModeBg flex flex-col">
           <Header theme={theme} toggleTheme={toggleTheme} />
 
           <Routes>
@@ -51,9 +51,9 @@ function App() {
             />
           </Routes>
 
-          <footer>
+          <footer className="text-center text-sm dark:text-darkModeTextLightModeElements">
             Created by{' '}
-            <Link to="https://github.com/mwiafeansong">mwiafenasong</Link>
+            <Link to="https://github.com/mwiafeansong">mwiafeansong</Link>
           </footer>
         </div>
       </div>
