@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Light Mode](./screenshot.png)
-![Dark Mode](./screenshot-dark-mode.png)
+![Light Mode](./images/screenshot.png)
+![Dark Mode](./images/screenshot-dark-mode.png)
 
 ### Links
 
