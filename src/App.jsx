@@ -15,7 +15,7 @@ function App() {
 
   useEffect(() => {
     const fetchCountries = async () => {
-      const res = await fetch('../../countries-app/data.json');
+      const res = await fetch('../../data.json');
       const data = await res.json();
 
       setCountries(data);
